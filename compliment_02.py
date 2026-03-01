@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Patrick Babb
+# DATE: 3/1/2026
+# BRIEF DESCRIPTION: a slightly more complex variation of the previous compliment lab 
 
 
 
@@ -15,7 +15,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment_generator2()
 
+def compliment_generator2():
+    compliment_question = input('Would you like a compliment?: ')
+    if (compliment_question == 'yes'):
+        print('You have wonderful eyes.')
+    else:
+        print('No compliment for you!')
+    print ('Thank you for playing.')
+main()
 
 
 
@@ -70,7 +80,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+NO, it was very similar to the previous lab
 
 
 
